@@ -90,8 +90,8 @@ var table dash = table.new(
 
 if barstate.islast and showTable
 
-    table.cell(dash, 0, 0, "MARGIN GUARD", text_color=accentColor)
-    table.cell(dash, 1, 0, "Nothyp 1", text_color=color.gray)
+    table.cell(dash, 0, 0, "MARGIN GUARD 1", text_color=accentColor)
+    table.cell(dash, 1, 0, "Nothyp", text_color=color.gray)
 
     table.cell(dash, 0, 1, "Pair")
     table.cell(dash, 1, 1, sym, text_color=cyanColor)
