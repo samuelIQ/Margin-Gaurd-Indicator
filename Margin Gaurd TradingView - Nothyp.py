@@ -1,5 +1,5 @@
 //@version=5
-indicator("Nothyp — Margin Guard", shorttitle="MarginGuard", overlay=true)
+indicator("Prop Firm Margin Guard - nothyp", shorttitle="Margin Guard - Nothyp", overlay=true)
 
 // INPUTS
 grpAcc = "Account Settings"
