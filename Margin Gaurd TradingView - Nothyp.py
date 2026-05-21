@@ -1,4 +1,3 @@
-//@version=5
 indicator("Prop Firm Margin Guard - nothyp", shorttitle="Margin Guard - Nothyp", overlay=true)
 
 // INPUTS
