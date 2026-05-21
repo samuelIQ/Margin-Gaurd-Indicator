@@ -3,11 +3,10 @@ A tradingview indicator for forex traders to know their margin for each pair als
 
 Version 1 Features
 https://github.com/samuelIQ/Margin-Gaurd-Indicator/blob/main/Margin%20Gaurd%20TradingView%20-%20Nothyp.py
-1. It starught to the point set your account size and levrage (🚨Please take note dont go and use forex leverage for commodity, metals and crypto pair).
-Every Makrrt has their leverage as designated by prop firms.
-
+1. It's straight to the point set your account size and levrage (🚨Please take note dont go and use forex leverage for commodity, or metals and crypto pair leverage for forex pair).
+Every Market has their leverage as designated by your prop firms.
 3. Any pair you open on your chart you see the maximum lots allowed and also 80% margin hard limit to avoid.
-4. You can set any margin level but 80% wwas set due to popular prop firm benchamrk.
+4. You can set any margin level but 80% was set due to popular prop firm benchamrk.
 <img width="754" height="1454" alt="1000242082" src="https://github.com/user-attachments/assets/bcef4000-25f6-47d8-a169-ba971a22ce53" />
 
 
