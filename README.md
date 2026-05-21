@@ -1,7 +1,17 @@
-# Forex-Margin-Gaurd-
+# Forex Margin Gaurd - Nothyps Forex Project 2
 A tradingview indicator for forex traders to know their margin for each pair also trade datas. No more calculators know your trades before going to MT5. No more blowing accounts due to margin rule except you're possses 
 
-Features
+
+Version 1 Features
+1. It starught to the point set your account size and levrage (🚨Please take note dont go and use forex leverage for commodity, metals and crypto pair).
+Every Makrrt has their leverage as designated by prop firms.
+
+3. Any pair you open on your chart you see the maximum lots allowed and also 80% margin hard limit to avoid.
+4. You can set any margin level but 80% wwas set due to popular prop firm benchamrk.
+<img width="754" height="1454" alt="1000242082" src="https://github.com/user-attachments/assets/bcef4000-25f6-47d8-a169-ba971a22ce53" />
+
+
+Version 2 Features
 1. It has lot calculator once entry and sl is entered.
 2. Margin calculation for your chosen lot.
 3. 80% margin lot to keep you in range of decision.
