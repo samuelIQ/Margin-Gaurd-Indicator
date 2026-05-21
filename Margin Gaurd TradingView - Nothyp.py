@@ -3,7 +3,7 @@ indicator("Prop Firm Margin Guard - nothyp", shorttitle="Margin Guard - Nothyp",
 
 // INPUTS
 grpAcc = "Account Settings"
-accountSize = input.float(50000, "Account Size ($)", minval=100, step=1000, group=grpAcc)
+accountSize = input.float(5000, "Account Size ($)", minval=100, step=1000, group=grpAcc)
 leverage = input.int(50, "Leverage (1:X)", minval=1, maxval=2000, group=grpAcc)
 
 grpMgn = "Margin Guard Settings"
