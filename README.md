@@ -11,7 +11,7 @@ Every Market has their leverage as designated by your prop firms.
 <img width="754" height="1454" alt="1000242082" src="https://github.com/user-attachments/assets/bcef4000-25f6-47d8-a169-ba971a22ce53" />
 
 
-Version 2 Features (Contact via X dm or website)
+Version 2 Features
 1. It has lot calculator once entry and sl is entered.
 2. Margin calculation for your chosen lot.
 3. 80% margin lot to keep you in range of decision.
