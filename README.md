@@ -2,7 +2,7 @@
 A tradingview indicator for forex traders to know their margin for each pair also trade datas. No more calculators know your trades before going to MT5. No more blowing accounts due to margin rule except you're possses.
 ✅no more payout denial from 80% margin rule
 
-Version 1 Features - 
+Version 1 Features 
 https://github.com/samuelIQ/Margin-Gaurd-Indicator/blob/main/Margin%20Gaurd%20TradingView%20-%20Nothyp.py
 1. It's straight to the point set your account size and levrage (🚨Please take note dont go and use forex leverage for commodity, or metals and crypto pair leverage for forex pair).
 Every Market has their leverage as designated by your prop firms.
@@ -11,7 +11,7 @@ Every Market has their leverage as designated by your prop firms.
 <img width="754" height="1454" alt="1000242082" src="https://github.com/user-attachments/assets/bcef4000-25f6-47d8-a169-ba971a22ce53" />
 
 
-Version 2 Features - (Message 
+Version 2 Features - (nothyp store)
 1. It has lot calculator once entry and sl is entered.
 2. Margin calculation for your chosen lot.
 3. 80% margin lot to keep you in range of decision.
