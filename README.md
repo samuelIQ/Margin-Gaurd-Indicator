@@ -19,5 +19,10 @@ Version 2 Features - (nothyp store)
 <img width="719" height="747" alt="1000241315" src="https://github.com/user-attachments/assets/7a76e928-a89a-41e3-af92-6573b5d8f8c3" />
 <img width="720" height="639" alt="1000241312" src="https://github.com/user-attachments/assets/6b589342-1188-4586-a0fa-68bd98e6c447" /><img width="720" height="1600" alt="1000241304" src="https://github.com/user-attachments/assets/fa5a6966-6a43-434f-9699-beea4dbcc5e3" />
 
+Version 3 - (Nothyp Store)
+No manual leverage input.
+1. Fill in your account size
+2. Select your Prop firm
+Leverage auto updates and gives you max. lot allowed for your prop accounts for each pair you select on tradingview.
 
 
