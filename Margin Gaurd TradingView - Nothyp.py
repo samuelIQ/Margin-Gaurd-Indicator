@@ -1,14 +1,15 @@
-indicator("Prop Firm Margin Guard - nothyp", shorttitle="Margin Guard - Nothyp", overlay=true)
+//@version=5
+indicator("Prop Firm Margin Guard - nothyp", shorttitle="PF MarginGuard - nothyp", overlay=true)
 
 // INPUTS
 grpAcc = "Account Settings"
-accountSize = input.float(5000, "Account Size ($)", minval=100, step=1000, group=grpAcc)
+accountSize = input.float(50000, "Account Size ($)", minval=100, step=1000, group=grpAcc)
 leverage = input.int(50, "Leverage (1:X)", minval=1, maxval=2000, group=grpAcc)
 
 grpMgn = "Margin Guard Settings"
 guardPct = input.float(
      70.0,
-     "Guard Threshold (%)",
+     "Threshold incases of slippage (%)",
      minval=10,
      maxval=99,
      step=1,
@@ -34,10 +35,20 @@ tablePos = input.string(
 // SYMBOL
 sym = syminfo.ticker
 
+
+isCrypto =
+     str.contains(sym, "BTC")  or str.contains(sym, "ETH")  or
+     str.contains(sym, "XRP")  or str.contains(sym, "SOL")  or
+     str.contains(sym, "BNB")  or str.contains(sym, "ADA")  or
+     str.contains(sym, "DOGE") or str.contains(sym, "LTC")  or
+     str.contains(sym, "AVAX") or str.contains(sym, "DOT")  or
+     str.contains(sym, "MATIC") or str.contains(sym, "LINK")
+
 // CONTRACT SIZE
 contractSize =
      str.contains(sym, "XAU") or str.contains(sym, "GOLD") ? 100.0 :
      str.contains(sym, "OIL") or str.contains(sym, "WTI") or str.contains(sym, "USOIL") ? 1000.0 :
+     isCrypto ? 1.0 :
      100000.0
 
 // USD DETECTION
@@ -89,7 +100,7 @@ var table dash = table.new(
 
 if barstate.islast and showTable
 
-    table.cell(dash, 0, 0, "MARGIN GUARD 1", text_color=accentColor)
+    table.cell(dash, 0, 0, "MARGIN GUARD", text_color=accentColor)
     table.cell(dash, 1, 0, "Nothyp", text_color=color.gray)
 
     table.cell(dash, 0, 1, "Pair")
@@ -100,12 +111,7 @@ if barstate.islast and showTable
 
     table.cell(dash, 0, 3, "Leverage")
     table.cell(dash, 1, 3, "1:" + str.tostring(leverage))
-
-    table.cell(dash, 0, 4, "Buying Power")
-    table.cell(dash, 1, 4, "$" + str.tostring(buyingPower))
-
-    table.cell(dash, 0, 6, "Margin / Lot")
-    table.cell(dash, 1, 6, "$" + str.tostring(marginPerLot, "#.00"))
+
 
     table.cell(dash, 0, 7, "Guard")
     table.cell(dash, 1, 7, "$" + str.tostring(guardAmount))
@@ -126,18 +132,4 @@ if barstate.islast and showTable
          str.tostring(maxLotsHard, "#.##") + " lots",
          text_color=dangerColor)
 
-// WATERMARK
-var label wm = na
-
-if barstate.islast
-    label.delete(wm)
-
-    wm := label.new(
-         bar_index,
-         high + (high - low) * 5,
-         "Nothyp — Margin Guard | Max: " +
-         str.tostring(maxLotsGuard, "#.##") +
-         " lots on " + sym,
-         style=label.style_label_center,
-         textcolor=color.gray,
-         color=color.new(color.black, 100))
+// WATER
