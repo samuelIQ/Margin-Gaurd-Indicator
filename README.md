@@ -25,4 +25,4 @@ No manual leverage input.
 2. Select your Prop firm
 Leverage auto updates and gives you max. lot allowed for your prop accounts for each pair you select on tradingview.
 
-
+https://nothyp.hostingersite.com
