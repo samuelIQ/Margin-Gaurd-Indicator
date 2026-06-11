@@ -31,4 +31,4 @@ Leverage auto updates and gives you max. lot allowed for your prop accounts for 
 
 This is the most advanced version every prop firm and margin is built into the code
 for issues with setup message on Telegram 
-https://t.me/nothyp
+https://t.me/NolygonAdmin
