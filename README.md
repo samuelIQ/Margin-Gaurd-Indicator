@@ -12,6 +12,7 @@ Every Market has their leverage as designated by your prop firms.
 
 
 Version 2 Features - (nothyp store)
+https://nothyp.hostingersite.com/index.php?category=Store
 1. It has lot calculator once entry and sl is entered.
 2. Margin calculation for your chosen lot.
 3. 80% margin lot to keep you in range of decision.
