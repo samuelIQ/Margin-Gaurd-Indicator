@@ -30,4 +30,5 @@ No manual leverage input.
 Leverage auto updates and gives you max. lot allowed for your prop accounts for each pair you select on tradingview.
 
 This is the most advanced version every prop firm and margin is built into the code
-for issues with setup DM on X (x.com/nothyp)
+for issues with setup message on Telegram 
+t.me/nothyp
