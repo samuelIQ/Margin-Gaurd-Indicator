@@ -23,9 +23,11 @@ https://nothyp.hostingersite.com
 <img width="720" height="639" alt="1000241312" src="https://github.com/user-attachments/assets/6b589342-1188-4586-a0fa-68bd98e6c447" /><img width="720" height="1600" alt="1000241304" src="https://github.com/user-attachments/assets/fa5a6966-6a43-434f-9699-beea4dbcc5e3" />
 
 # Version 3 - PF Margin Gaurd (AUTOMATED)
+https://nothyp.hostingersite.com/index.php?category=Store
 No manual leverage input.
 1. Fill in your account size
 2. Select your Prop firm
 Leverage auto updates and gives you max. lot allowed for your prop accounts for each pair you select on tradingview.
 
-https://nothyp.hostingersite.com/index.php?category=Store
+This is the most advanced version every prop firm and margin is built into the code
+for issues with setup DM on X (x.com/nothyp)
